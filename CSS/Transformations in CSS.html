@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformations in CSS</title>
+    <style>
+        .container
+        {
+            display: flex;
+            height: 90vh;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .box
+        {
+            background-color: green;
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: all 2s ease-in;
+          
+        }
+        .box:hover
+        {
+            /* transform: rotate(180deg);
+            transform: skew(45deg);
+            transform: translateY(100px); 
+            transform: translate(100px, 100px);
+            */
+            transform: scale(.5);
+        }
+    </style>
+</head>
+<body>
+      <div class="container">
+        <div class="box">
+            Tutorial or Transformations
+        </div>
+      </div>
+</body>
+</html>

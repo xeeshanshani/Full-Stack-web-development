@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility & Z-index Property in CSS</title>
+    <style>
+        .box
+        {
+            width: 220px;
+            height: 200px;
+
+        }
+        #red
+        {
+            background-color: red;
+        }
+        #green{
+            background-color: green;
+            position: relative;
+            top: -150px;
+            left: 100px;
+           
+            /* visibility: hidden; only hiden element its  ocupy space in display none: remove the element and space aslo*/
+        }
+        #black
+        {
+            background-color: black;
+        }
+        #yellow
+        {
+            width: 60px;
+            height: 60px;
+            background-color: yellow;
+            top:-300px
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="red"></div>
+    <div class="box" id="green"></div>
+    
+    <div class="box" id="yellow"></div>
+    <div class="box" id="black"></div>
+  
+</body>
+</html>

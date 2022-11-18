@@ -1,0 +1,66 @@
+/*Universal Selector*/
+*
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+/*p
+{
+color:blueviolet;
+font-size: 32px;
+font-weight: 900;
+font-style: oblique;
+font-stretch: expanded;
+}
+div + p
+{
+    background-color:  goldenrod;
+}
+*/
+.unique
+{
+
+    color:green;
+}
+#perfect
+{
+    color:red;
+    font-family:'Courier New', Courier, monospace
+}
+div>p 
+{
+    background-color: rebeccapurple;
+    color:white;
+}
+div>span
+{
+    border: 2px solid yellowgreen;
+}
+
+.lovely
+{
+   /* color: greenyellow; */
+   color: rgb(140, 11, 11);
+}
+/*border and background property*/
+.borderstyle
+{
+    border: 8px dashed;
+    border-color: red;
+    border-radius: 5px;
+
+}
+
+#backgroundimage
+{
+    height:420px;
+    width: 420px;
+    background-image: url(/CSS/MasterCard_Logo_svg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background: yellow url(/CSS/MasterCard_Logo_svg.png) no-repeat;
+
+}

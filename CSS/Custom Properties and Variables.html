@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Properties & Variables</title>
+    <style>
+        :root{
+            --mycolor : rgb(130, 233,150);
+            font-size: 18px;
+        }
+        .container
+        {
+           
+            background-color: var(--mycolor);
+        }
+        .container-1{
+            background-color:var(--mycolor) ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Java Development</h1>
+    </div>
+    <div class="container-1">
+        <h1>Web Development</h1>
+    </div>
+    <div class="container-1">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+    </div>
+</body>
+</html>

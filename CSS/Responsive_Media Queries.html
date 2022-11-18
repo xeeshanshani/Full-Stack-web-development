@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive & Media Queries in CSS</title>
+    <style>
+        html{
+            font-size: 10px; 
+        }
+        .container
+        {
+            border: 2px solid black;
+            display: none;
+        }
+        /* max width for mobile */
+        @media only screen and (max-width:688px)
+        {
+            #box-1
+            {
+                display: block;
+                background-color: chocolate;
+                font-size: 2rem;
+                text-align: center;
+            }
+        }
+        /* max width for tablet */
+       @media only screen and (min-width:688px) and (max-width: 900px)
+          {
+            #box-2
+            {
+                display:block;
+                background-color: red;
+                color: white;
+                font-size: 2rem;
+                text-align: center;
+            }
+        }
+        /* Max width for PC Monitor 1312 */
+        @media only screen and (min-width:900px) and (max-width: 1312px)
+        {
+            #box-3
+            {
+                display: block;
+                background-color: orange;
+                font-size: 2rem;
+                text-align: center;
+                color: white;
+            }
+
+        }
+        /*   */
+        @media only screen and (min-width:1312px)
+        {
+            #box-4
+            {
+                display: block;
+                background-color: brown;
+                font-size: 2rem;
+                text-align: center;
+                color: white;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" id="box-1">This is smartphone</div>
+    <div class="container" id="box-2">This is for Tablet</div>
+    <div class="container" id="box-3">This is for PC</div>
+    <div class="container" id="box-4">This is for Ulterwide Monitor</div>
+</body>
+</html>

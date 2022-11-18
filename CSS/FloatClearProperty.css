@@ -1,0 +1,28 @@
+img{
+    width: 100px;
+    height: 100px;
+    clear: both;
+}
+.one img
+{
+    float: left;
+    margin-right: 15px;
+    
+}
+.two img
+{
+    float: right;
+    margin-left: 15px;
+    
+    width: 250px;
+    height: 25opx;
+}
+.three img
+{
+    clear: right;
+}
+.two{
+
+    background-color: burlywood;
+    overflow: auto;
+}

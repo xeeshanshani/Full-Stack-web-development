@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property in CSS</title>
+    <style>
+        .container
+        {
+            border: 5px solid red;
+            background-color: burlywood;
+            height: 1000px;
+        }
+        .box
+        {
+              font-size: 25px;
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            display: inline-block;
+        }
+        #box1
+        {
+            /*this is defacult property static*/
+            position: relative;
+           
+        }
+        #box4
+        {
+             top: 10px;
+            position: sticky;
+        }
+        #box3
+        {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+         
+    </style>
+</head>
+<!--div.box#box1*4-->
+<body>
+    <div class="container">
+      <div class="box" id="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, sed?</div>
+      <div class="box" id="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, sed?</div>
+      <div class="box" id="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, sed?</div>
+      <div class="box" id="box4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, sed?</div>
+
+
+    </div>
+</body>
+</html>

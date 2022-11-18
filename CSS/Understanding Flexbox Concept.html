@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Flexbox Concept in CSS</title>
+    <style>
+        .container
+        {
+            height: auto;
+            border: 2px solid black;
+            display: flex;
+            /* flex-direction: row; */
+            /* justify-content: center; */
+            /* align-items: flex-start; */
+            /* align-items: flex-start; */
+            /* flex-wrap: wrap;  it is not strcah the content its just shrink the content according to conetnt*/
+            /* flex-wrap:wrap-reverse; */
+            /* flex-wrap: nowrap; */
+        }
+        #box-1{
+           /* flex-grow: 2;
+           flex-shrink: 2; */
+           align-self: center;
+        }
+        .item 
+        {
+            background-color: blueviolet;
+            font-size: 20px;
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            margin: 5px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!--Best short Cuts for id and class div.item#box-$*4 -->
+        <div class="item" id="box-1">box 1</div>
+        <div class="item" id="box-2">box 2</div>
+        <div class="item" id="box-3">box 3</div>
+        <div class="item" id="box-4">box 4</div>
+
+    </div>
+</body>
+</html>
