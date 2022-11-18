@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+</head>
+<body>
+ 
+    <form action="backend.php">
+        
+        <div>Name : <input type="text" name="StudentName" value="" placeholder="Enter Name"></div>
+        <br>
+        <div>Email <input type="email" name="Email" value="" placeholder="Enter Mail" ></div>
+        <br>
+        <div> Phone: <input type="number" value="" placeholder="Enter Phone Number"></div>
+        <br>
+        <div>Gender Male <input type="radio" name="gender" id="">Female <input type="radio" name="gender-2" id="">
+        </div>
+        <br>
+        <div> Your are 18 +<input type="checkbox" value="" ></div>
+        <br>
+        <div>Select Date  <input type="date" name="DOB"> </div>
+        <br>
+        <div>Upload a File <input type="file" name="file" accept="image/"></div>
+        <br>
+        <div>Home Address <textarea name="address" id="" cols="10" rows="10"></textarea></div>
+        <br>
+        Fields you Chosse
+        <select name="options" id="">
+           <option value="">Wordpress</option>
+           <option value="">Backend</option>
+           <option value="">Frontend</option>
+
+        </select>
+        <br>
+        <input type="submit" value="submit Form">
+        <br>
+        <br>
+        <input type="reset" value="Reset">
+       
+    </form>
+</body>
+</html>
