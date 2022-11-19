@@ -1,0 +1,24 @@
+{
+    "name": "Zeeshan",
+    "age": 25,
+    "address": {
+        "city": "Karachi",
+        "country": "Pakistan"
+    },
+    "hobbies": [
+        "Cricket",
+        "Football",
+        "Reading"
+    ],
+    "isMarried": false,
+    "languages": [
+        {
+            "name": "English",
+            "level": "Intermediate"
+        },
+        {
+            "name": "Urdu",
+            "level": "Native"
+        }
+    ]
+}
