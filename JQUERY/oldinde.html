@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <title>JQuery Practics</title>
+</head>
+
+<body>
+    <h1>Hello World</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p id="jqueryid">Lorem ipsum dolor sit amet.</p>
+    <p class="jqueryclass">Lorem ipsum dolor sit amet.</p>
+
+</body>
+<script src="js/jquery-3.6.1.min.js"></script>
+<script>
+    // Document Ready Function short form $(function(){})
+    $(document).ready(function () {
+
+        //$('h1').click();
+        //$('h1').css('color', 'red');
+        // $('h1').css('font-size', '5rem');
+        // $('h1').css('text-align', 'center');
+        // $('h1').click(function () {
+        // console.log('you clicked me');
+        //$('h1').hide();
+        //this.remove();
+        // $('h1').slideUp().slideDown().animate({
+        //    opacity: 0.5
+        //   });
+
+        // });
+
+        // There are three ways to select elements in jquery
+        // 1. by tag name
+        // 2. by id
+        // 3. by class name
+        // $('p').click();
+        //console.log("p tag clicked");
+
+        // 2. by id
+        //$('#jqueryid').click();
+        //console.log("jqueryid clicked");
+
+        // 3. by class name
+        //$('.jqueryclass').click();
+        //console.log("jqueryclass clicked");
+
+        // other selectors
+        $('*').click();
+
+
+
+
+    });
+
+</script>
+
+</html>
